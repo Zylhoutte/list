@@ -5,7 +5,7 @@ import '../models/user_model.dart';
 
 class AppViewModel extends ChangeNotifier {
   List<Task> tasks = <Task>[];
-  User user = User("Jon Snow");
+  User user = User("Archie Manlin");
 
   Color clrLvl1 = Colors.grey.shade50;
   Color clrLvl2 = Colors.grey.shade200;
